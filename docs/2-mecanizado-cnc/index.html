@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>3 - Mecanizado CNC - Agustín Donoso - Taller Fabricación 2021</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://agustindh.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.a32658f2eedb9bb852f8513925cb445e40633983f1ff54349b037dd04eafa2fa.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-dococumentación">
+      <a href="/docs/">
+        <span>Dococumentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://agustindh.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://agustindh.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-dococumentación">
+      <a href="/docs/">
+        <span>Dococumentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://agustindh.github.io/docs/0-fabricaci%C3%B3n-digital/">0 - Fabricación Digital</a>
+    </li>
+    
+    <li class="">
+      <a href="https://agustindh.github.io/docs/1-planimetr%C3%ADa/">1 - Planimetría</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://agustindh.github.io/docs/2-mecanizado-cnc/">3 - Mecanizado CNC</a>
+    </li>
+    
+    <li class="">
+      <a href="https://agustindh.github.io/docs/ejemplo/">Ejemplo Shortcodes</a>
+    </li>
+    
+    <li class="">
+      <a href="https://agustindh.github.io/docs/markdown/">Ejemplos Markdown</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">3 - Mecanizado CNC</h1>
+<div class="content ">
+  <h1 id="mecanizado-cnc---encargo-3">Mecanizado CNC - Encargo 3</h1>
+<p>En el siguiente encargo describire como mecanizar una maquina cnc a traves de fusion 360, para el elaborar paso a paso una silla.</p>
+<h2 id="paso-1">Paso 1</h2>
+<p>Partimos ubicandonos en el espacio de trabajo de diseño, una vez aqui, crearemos un sketch el cual se ubicara en el plano xy, marcado en azul en la imagen de abajo.</p>
+<p><img src="/img/sillafresia/1.jpeg" alt="Planimetría_1"></p>
+<p>Una vez en el plano xy, trazaremos un 2-point rectangle, el cual tendra una dimension de 1220 x 1220 mm, este sera nuestra plancha de terciado para elaborar cada una de las piezas de nuestra silla.</p>
+<p><img src="/img/sillafresia/2.jpeg" alt="Planimetría_1"></p>
+<p>Para terminar la creación de nuestra plancha, debemos aplicar un extrude a nuestro plano, de unos 15 mm, con esto tenemos listo nuestro espacio de trabajo para pasar al siguiente paso.</p>
+<p><img src="/img/sillafresia/3.jpeg" alt="Planimetría_1"></p>
+<h2 id="paso-2">Paso 2</h2>
+<p>Comenzamos a sacarle piezas a la silla, esto lo realizaremos con la herramienta move, marcando la casilla copy, en este caso para ejemplificar de forma simple, lo haremos con las patas posteriores de la silla, de un solo lado.
+<img src="/img/sillafresia/4.jpeg" alt="Planimetría_1">
+Luego debemos utilizar la herramienta align, seleccionamos una de las caras de la pata, luego seleccionamos el plano xy tal como lo hicimos para crear el sketch, debemos preocuparnos que tanto estas piezas como todas las otras queden con las ranuras mirando hacia arriba, o sea a nuestro eje z positivo.</p>
+<p><img src="/img/sillafresia/5.jpeg" alt="Planimetría_1"></p>
+<p><img src="/img/sillafresia/6.jpeg" alt="Planimetría_1"></p>
+<p><img src="/img/sillafresia/7.jpeg" alt="Planimetría_1"></p>
+<p>Una vez alineadas las piezas al mismo nivel que nuestra plancha de terciado, las ubicaremos en la plancha, con las ranuras hacia arriba, esto con el comando move, sin copy.</p>
+<p><img src="/img/sillafresia/8.jpeg" alt="Planimetría_1"></p>
+<h2 id="paso-3">Paso 3</h2>
+<p>Procedemos a pasar de nuestra area de trabajo de diseño a nuestra area de trabajo de manofactura.</p>
+<p><img src="/img/sillafresia/9.jpeg" alt="Planimetría_1"></p>
+<p>Una vez aqui, nos vamos a la carpeta marcada en azul en nuestra parte superior izq de la imagen de abajo, que corresponde al setup, en esta parte partimos seleccionando la maquina que utilizaremos, en este caso una &ldquo;Autodesk generic 3-axis&rdquo; y damos ok</p>
+<p><img src="/img/sillafresia/10.jpeg" alt="Planimetría_1"></p>
+<p>Luego en este mismo espacio de setup nos vamos a &ldquo;stock&rdquo; y cambiamos el &ldquo;mode&rdquo; a &ldquo;from solid&rdquo;, luego seleccionamos la plancha de terciado.</p>
+<p><img src="/img/sillafresia/11.jpeg" alt="Planimetría_1"></p>
+<p>Despues en el mismo espacio donde seteamos la maquina de trabajo, nos vamos abajo a &ldquo;model&rdquo; y seleccionamos las piezas que queremos trabajar, en este caso las dos patas posteriores, en el caso concreto serían todas las piezas de la silla.</p>
+<p><img src="/img/sillafresia/12.jpeg" alt="Planimetría_1"></p>
+<p>En este mismo espacio nos vamos ahora a &ldquo;work coordinate system&rdquo; y cambiamos la orientacion, apretamos &ldquo;select z axis/plane &amp; x axis&rdquo;, una vez hecho esto debemos seleccionar la parte superior de la plancha para que el eje z quede vertical al plano xy.
+Despues apretamos el borde de la plancha que se encuentra detras de la silla en la imagen para establecer la posicion del eje x ahí, finalmente determinamos el punto (0,0,0) en modo guia para maquina en el vertice que se ve en la imagen 2 hacia abajo, ya podemos apretar ok.</p>
+<p><img src="/img/sillafresia/13.jpeg" alt="Planimetría_1"></p>
+<p><img src="/img/sillafresia/14.jpeg" alt="Planimetría_1"></p>
+<h2 id="paso-4">Paso 4</h2>
+<p>Podemos empezar con nuestra primera operación, un 2d contour, para generar las ranuras donde se unen las piezas, para crear estos pequeños agujeros, debemos seleccionar los vectores inferiores de cada ranura y damos ok.</p>
+<p><img src="/img/sillafresia/15.jpeg" alt="Planimetría_1"></p>
+<p><img src="/img/sillafresia/16.jpeg" alt="Planimetría_1"></p>
+<p>Una vez puesto ok el programa nos pedira la fresia para realizar estos agujeros, en este caso usaremos una fresia de diametro = 6 mm, con flute length = 20 mm, un overall length = 63 mm y de tipo = flat end mill, damos ok.</p>
+<p><img src="/img/sillafresia/17.jpeg" alt="Planimetría_1"></p>
+<p>Luego debemos hacer unos pequeños ajustes, desde la carpeta que aparecen en nuestra parte inf izq de la pantalla, seleccionamos el 2d contour que hicimos con click derecho, nos dirijimos a &ldquo;edit&rdquo; y de ahi iremos a passes, luego multiple depths y apretaremos en la primera casilla &ldquo;maximum roughing&rdquo;, cambiandolo de 1 mm a 3 mm, dado que la fresia no puede atravesar una plancha de 15 mm teniendo un diametro de 6 mm, debe realizarlo paso a paso, en este caso 5 pasadas por hoyo.</p>
+<p><img src="/img/sillafresia/18.jpeg" alt="Planimetría_1"></p>
+<p>La siguiente operación corresponde a un 2d pocket, en la cual seleccionaremos los sacados para generar las uniones mayores de las patas con los largueros, tal como se ve en la imagen.</p>
+<p><img src="/img/sillafresia/19.jpeg" alt="Planimetría_1"></p>
+<p>Por ultimo realizaremos la operacion 2d contour nuevamente, seleccionando los vectores inferiores de cada pieza en su totalidad marcados con color azul en la imagen de abajo, lo cual vendría siendo el contorno de la pieza completa por fuera.</p>
+<p><img src="/img/sillafresia/20.jpeg" alt="Planimetría_1"></p>
+<p>Nuevamente, vamos a edit en este nuevo 2d contour, para cambiar al igual que hicimos con las ranuras pequeñas, el multiple depths, cambiando el primer espacio de 1 mm a 3 mm, exactamente como se hizo antes, la imagen de abajo muestra las veces que pasara la cnc por ahi.</p>
+<p><img src="/img/sillafresia/21.jpeg" alt="Planimetría_1"></p>
+<p>Por ultimo debemos ir a edit nuevamente en este ultimo 2d contour, de ahí iremos a &ldquo;geometry&rdquo; y luego marcaremos la casilla de &ldquo;tabs&rdquo;, ajustaremos el &ldquo;tab height&rdquo; a 3 mm y la &ldquo;tab distance&rdquo; a 350 mm. Los tabs corresponden a pequeñas uniones que dejamos algo así como un prepicado al contorno de la pieza, para prevenir que las piezas se rompan con el vibrar de la CNC, al pasar por todas las piezas, dado que si quedan sueltan puede ocurrir esto, ajustamos por ende la distancia de tabs debido a que no necesitamos tantos tabs, con unos pocos basta para sujetar las piezas y eliminar este potencial riesgo.
+La imagen permite ver como en el lado derecho, si miras con detención se logra ver un espacio vacio entre el recorrido de la CNC, ese es el tab.</p>
+<p><img src="/img/sillafresia/22.jpeg" alt="Planimetría_1"></p>
+<h2 id="video-de-simulación-de-patas-posteriores">Video de simulación de Patas posteriores.</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/vid1.mp4"  type="video/mp4">
+    </video>
+</div>
+<h2 id="paso-5">Paso 5</h2>
+<p>Todo este proceso anterior se debe realizar con cada una de las piezas de la silla, las cuales ubicaremos en la plancha de terciado, luego de esto realizaremos los 2d contour y 2d pocket, con sus respectivos setups, exactamente los mismos que utilizamos en modo de representación con dos piezas para facilitar la explicación del ejercicio.</p>
+<p><img src="/img/sillafresia/todas.jpeg" alt="Planimetría_1"></p>
+<p>Una vez realizado todos los pasos anteriores con cada pieza, realizamos la simulación del proceso completo con casi todas las piezas.</p>
+<h2 id="simulación-todas-las-piezas-de-la-silla">Simulación todas las piezas de la silla</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/vid2.mp4"  type="video/mp4">
+    </video>
+</div>
+<h2 id="planimetría-silla-fresia">Planimetría silla fresia</h2>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>

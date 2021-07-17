@@ -9,38 +9,47 @@
     <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://agustindh.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0 - Fabricación Digital</title>
-      <link>https://agustindh.github.io/docs/0-fabricaci%C3%B3n-digital/</link>
+      <link>https://agustindh.github.io/docs/encargo0/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://agustindh.github.io/docs/0-fabricaci%C3%B3n-digital/</guid>
-      <description>Contenido de mi post 1 con Hugo</description>
+      <guid>https://agustindh.github.io/docs/encargo0/</guid>
+      <description>Encargo 1</description>
     </item>
     
     <item>
       <title>1 - Planimetría</title>
-      <link>https://agustindh.github.io/docs/1-planimetr%C3%ADa/</link>
+      <link>https://agustindh.github.io/docs/encargo1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://agustindh.github.io/docs/1-planimetr%C3%ADa/</guid>
-      <description>Contenido de mi post 1 con Hugo</description>
+      <guid>https://agustindh.github.io/docs/encargo1/</guid>
+      <description>Encargo 2</description>
     </item>
     
     <item>
       <title>2 - Mecanizado CNC</title>
-      <link>https://agustindh.github.io/docs/2-mecanizado-cnc-grupal-link/</link>
+      <link>https://agustindh.github.io/docs/encargo2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://agustindh.github.io/docs/2-mecanizado-cnc-grupal-link/</guid>
-      <description>Contenido de mi post 1 con Hugo</description>
+      <guid>https://agustindh.github.io/docs/encargo2/</guid>
+      <description>Encargo 3</description>
     </item>
     
     <item>
       <title>2 - Mecanizado CNC</title>
-      <link>https://agustindh.github.io/docs/2-mecanizado-cnc/</link>
+      <link>https://agustindh.github.io/docs/encargo2grupal/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://agustindh.github.io/docs/2-mecanizado-cnc/</guid>
-      <description>Contenido de mi post 1 con Hugo</description>
+      <guid>https://agustindh.github.io/docs/encargo2grupal/</guid>
+      <description>Encargo 3 grupal</description>
+    </item>
+    
+    <item>
+      <title>3 - Mecanizado 2.5 Ejes</title>
+      <link>https://agustindh.github.io/docs/encargo3/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://agustindh.github.io/docs/encargo3/</guid>
+      <description>Encargo 4</description>
     </item>
     
     <item>

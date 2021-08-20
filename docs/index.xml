@@ -89,6 +89,24 @@
     </item>
     
     <item>
+      <title>8 - Creación de Molde - Complementario 2</title>
+      <link>https://agustindh.github.io/docs/encargo8/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://agustindh.github.io/docs/encargo8/</guid>
+      <description>Encargo 8</description>
+    </item>
+    
+    <item>
+      <title>9 - Proceso Examen Preliminar</title>
+      <link>https://agustindh.github.io/docs/encargo9/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://agustindh.github.io/docs/encargo9/</guid>
+      <description>Encargo 8</description>
+    </item>
+    
+    <item>
       <title>Ejemplo Shortcodes</title>
       <link>https://agustindh.github.io/docs/ejemplo/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -104,15 +122,6 @@
       
       <guid>https://agustindh.github.io/docs/markdown/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
-    </item>
-    
-    <item>
-      <title>9 - Proceso Examen Preliminar</title>
-      <link>https://agustindh.github.io/docs/encargo8/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://agustindh.github.io/docs/encargo8/</guid>
-      <description>Contenido de mi experimentación.</description>
     </item>
     
   </channel>

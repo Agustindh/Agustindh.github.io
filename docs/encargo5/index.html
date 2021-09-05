@@ -155,7 +155,8 @@
           
 <h1 class="title">5 - Impresión 3d</h1>
 <div class="content ">
-  <h1 id="ultimaker-cura">Ultimaker Cura</h1>
+  <h1 id="impresión-en-fdm">Impresión en FDM</h1>
+<h2 id="ultimaker-cura">Ultimaker Cura</h2>
 <p><img src="/img/curajpeg/curalogo.jpeg" alt="Planimetría_1"></p>
 <p>Para este encargo, utilizaremos el programa Ultimaker Cura, esta una aplicación/programa diseñado para impresoras 3D, en la que se pueden modificar los parámetros de impresión y después transformarlos a código G. Fue creada por David Braan, que después de un tiempo trabajaría para Ultimaker, una empresa dedicada al diseño y fabricación de impresoras 3D</p>
 <p>En el siguiente link, pueden descargar el programa:</p>
@@ -190,6 +191,28 @@
 <h1 id="optimización-del-noozle-en-impresoras-fdm">Optimización del Noozle en Impresoras FDM</h1>
 <p>Los Nozzles tienen medidas desde 0,2 a 1.0 mm, los cuales implican que uno desde un cierto punto arriesga calidad por menos tiempo de impresión y viceversa uno prioriza calidad por mayor tiempo de impresión, este punto de inflexión va de 0,4, o sea de 0,4 a 0,2 nosotros estamos buscando y obteniendo más calidad y más demora en el proceso de fabricación, por ende al contrario si vamos hacia arriba, de 0,5 a 1.0 mm arriesgas calidad y menos tiempo de impresión.</p>
 <p><img src="/img/curajpeg/nozzle.jpeg" alt="Planimetría_1"></p>
+<hr>
+<h1 id="impresión-en-sla">Impresión en SLA</h1>
+<h2 id="impresión-en-sla-con-preform-de-formlab">Impresión en SLA con Preform de Formlab</h2>
+<p><img src="/img/preform/preform.png" alt="Planimetría_1"></p>
+<p>PreForm es un software gratuito que utiliza cálculos avanzados y patentados para generar soportes y optimizar los ajustes de impresión en cada pieza impresa.</p>
+<p>Link de descarga: <a href="https://formlabs.com/software/">https://formlabs.com/software/</a></p>
+<hr>
+<h2 id="modo-de-uso-preform">Modo de uso Preform</h2>
+<h3 id="paso-1">Paso 1</h3>
+<p>Partimos abriendo el programa una vez descargado y nos iremos a las esquina superior derecha donde dice el tipo de impresora, en este caso una Form 3, para modificar y setear de forma rápida a que calidad queremos imprimir, que tipo de impresora usar y detalles como el color de nuestro material. En nuestro caso usaremos la misma que viene por defecto y setearemos el grosor de capa a la mitad, es decir 50 micrones ó 0,05 mm.</p>
+<p><img src="/img/preform/1.png" alt="Planimetría_1"></p>
+<h3 id="paso-2">Paso 2</h3>
+<p>Luego importaremos un modelo en STL al programa el cual ven en pantalla, para pasar a la generación de soportes que esta en el costado izquierdo del programa como pueden ver, apretaremos generar automáticamente todo. El programa tardara un tiempo dependiendo del tamaño de nuestro archivo en términos de dimensiones y tambien de la cantidad de soportes que se deba usar.</p>
+<p><img src="/img/preform/2.png" alt="Planimetría_1"></p>
+<p>En este caso yo importe un objeto que descargue de thingiverse, el cual venía algo defectuoso, este modelo lo use solo para explicar el uso y mostrar que si tenemos ciertas advertencias en nuestro programa, no nos conviene imprimir. Aquí ya pueden ver como queda la pieza con soportes.</p>
+<p><img src="/img/preform/3.png" alt="Planimetría_1"></p>
+<p><img src="/img/preform/4.png" alt="Planimetría_1"></p>
+<p>Como les mencionaba antes, si se fijan en el costado inferior derecho, nos aparece información al momento de generarse los soportes que nos indican si hay errores en nuestro modelo y si realmente se podrá imprimir un objeto en particular. Así como pueden ver, la pieza no es imprimible, dado que nos da una advertencia y ademas posee huecos. En estos caso tienes 2 opciones, reparar la pieza en otro programa o desechar ese modelo.</p>
+<p><img src="/img/preform/5.png" alt="Planimetría_1"></p>
+<h3 id="paso-3">Paso 3</h3>
+<p>Por ultimo y no menos importante, cuando apretan en soportes, una vez hecho nuestros soportes automáticos, podemos apretar en editar, esto se utiliza dado que si bien es muy exacto el sistema que ofrece Preform automático, puede tener ciertas fallas o generar más soportes de los que necesita un objeto en concreto, por ende como pueden ver, tu puedes seleccionar los puntos donde queda cada soporte y eleminarlo o simplemente correrlo a otro punto, esto queda a criterio de uno, pero si es importante recalcar que con estos ajustes uno puede ahorrar mucho material innecesario.</p>
+<p><img src="/img/preform/6.png" alt="Planimetría_1"></p>
 <p><a href="#top">[Volver Arriba]</a></p>
 
 </div>
